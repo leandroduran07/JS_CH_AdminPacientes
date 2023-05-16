@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    background-image: url(../img/fondo_admin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accordion-button {
+    background-color: black;
+    color: white;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
