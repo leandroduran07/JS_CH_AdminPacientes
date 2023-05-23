@@ -158,3 +158,22 @@ idFormMostrar.addEventListener("submit", (e) => {
 
 })
 
+contenedorMedicos = document.getElementById("contenedorMedicos");
+listadoMedicos = "../json/medicos.json";
+fetch(listadoMedicos)
+    .then(respuesta => respuesta.json())
+    .then(datos => {
+        datos.forEach(medico => {
+            contenedorMedicos.innerHTML += `
+                                            <div class="cardMedico">
+                                                <br>
+                                                <p>Dr/a: ${medico.apellido} ${medico.nombre}</p>
+                                                <p>Especialidad: ${medico.especialidad}</p>
+                                                <p>Turno: ${medico.turno}</p>
+                                                <br>
+                                            </div>
+            `
+            console.log(medico)
+        })
+    })
+    .catch(error => console.error(error));

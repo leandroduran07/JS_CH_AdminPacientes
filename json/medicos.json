@@ -1,0 +1,7 @@
+[
+    {"apellido": "Silva", "nombre": "Malena", "especialidad": "Cardiología", "turno": "Lunes y Miércoles 8:00 - 16:00hs"},
+    {"apellido": "Montiel", "nombre": "Carlos", "especialidad": "Traumatología", "turno": "Lunes y Miércoles 8:00 - 16:00hs"},
+    {"apellido": "Ledesma", "nombre": "Tamara", "especialidad": "Obstetricia", "turno": "Martes y Jueves 8:00 - 16:00hs"},
+    {"apellido": "Gonzalez", "nombre": "Johana", "especialidad": "Ginecología", "turno": "Martes y Jueves 8:00 - 16:00hs"},
+    {"apellido": "Cardozo", "nombre": "Mariano", "especialidad": "Clinico Médico", "turno": "Lunes a Viernes 8:00 - 16:00hs"}
+]

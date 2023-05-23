@@ -34,3 +34,55 @@ footer {
     right: 0;
     width: 100%;
 }
+
+.contenedorEspecialidades {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 0;
+}
+
+.contenedorMedicos {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.h2Esp {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(152, 189, 231);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cardMedico {
+    flex-basis: calc(50% - 10px);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+.fondo{
+        background-image: none;
+        background-color: gray;
+
+}
+.contenedorEspecialidades{
+    width: 85%;
+    margin-top: 1rem;
+}
+
+.contenedorMedicos{
+    display: block;
+}
+}
